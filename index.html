@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>DragDrawCanvas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<video id="video" width="500px" height="500px" autoplay="autoplay"></video>
+<canvas draggable="false" id="canvas" width="500px" height="500px"></canvas>
+<canvas hidden draggable="false" id="draw" width="500px" height="500px"></canvas>
+<canvas hidden draggable="false" id="reseter" width="500px" height="500px"></canvas>
+<br>
+<input type="button" title="Open Camera" value="Open Camera" onclick="getMedia()" />
+
+<button id="snap" onclick="takePhoto()">Shoot</button>
+<script src="index.js"></script>
+</body>
+
+</html>
